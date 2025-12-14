@@ -1,4 +1,13 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+/*Переменные для стилей*/
+:root {
+  --accent-color: #ff0070;
+  --outline:#FF007066;
+  --bg-color: #000028;
+  --text-color: #f1b2ce;
+  --title-color: #db00ff;
+  --accent-color-text:#ff0070;
+  --visually-hidden: block;
+  --cover:url(../images/cover-image-dark.png);
+  --margin-b: clamp(2.5rem, 1.3073rem + 5.0891vw, 3.75rem); /*c 40px на 60px*/
+  --padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);/*c 10 на 20*/;
+}
